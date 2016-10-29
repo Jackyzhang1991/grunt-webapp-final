@@ -1,6 +1,6 @@
 {
   "name": "Grunt-webapp-final",
   "tagline": "detailed explanation",
-  "body": "## Getting Started\r\nmanual:\r\nfavicon.ico显示在浏览器的地址栏或收藏夹中的网站icon\r\n可以把其放在根目录中或在html中使用link来调用\r\nrobots.txt--爬虫协议文件,用于规定哪些区域可以被抓取\r\n\r\n发布时是需要发布dist下的文件即可\r\n\r\n## Release History\r\n2016-10-29&nbsp;&nbsp;&nbsp;init\r\n\r\n## License\r\nMIT license.\r\n",
+  "body": "## Getting Started\r\nmanual:\r\nfavicon.ico显示在浏览器的地址栏或收藏夹中的网站icon\r\n可以把其放在根目录中或在html中使用link来调用\r\nrobots.txt--爬虫协议文件,用于规定哪些区域可以被抓取\r\n\r\n发布时是需要发布dist下的文件即可\r\n\r\n## Release History\r\n2016-10-29&nbsp;&nbsp;&nbsp;v2.10.1&nbsp;&nbsp;&nbsp;init\r\n\r\n## License\r\nMIT license.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

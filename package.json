@@ -1,5 +1,7 @@
 {
   "name": "grunt-last",
+  "repository": "https://github.com/Jackyzhang1991/grunt-webapp-final",
+  "homepage": "https://jackyzhang1991.github.io/grunt-webapp-final/",
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
     "grunt": "^0.4.5",

@@ -1,5 +1,6 @@
 {
   "name": "grunt-last",
+  "version": "3.10.9",
   "repository": "https://github.com/Jackyzhang1991/grunt-webapp-final",
   "homepage": "https://jackyzhang1991.github.io/grunt-webapp-final/",
   "devDependencies": {

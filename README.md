@@ -7,7 +7,7 @@ robots.txt--爬虫协议文件,用于规定哪些区域可以被抓取
 发布时是需要发布dist下的文件即可
 
 ## Release History
-2016-10-29&nbsp;&nbsp;&nbsp;init
+2016-10-29&nbsp;&nbsp;&nbsp;v2.10.1&nbsp;&nbsp;&nbsp;init
 
 ## License
 MIT license.

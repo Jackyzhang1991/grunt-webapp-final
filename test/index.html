@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Spec Runner</title>
+  <link rel="stylesheet" href="../bower_components/mocha/mocha.css">
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../bower_components/mocha/mocha.js"></script>
+  <script>mocha.setup('bdd');</script>       <!--指定哪种接口-->
+  <script src="../bower_components/chai/chai.js"></script>      <!--使用chai断言库-->
+  <script>
+    var assert = chai.assert;
+    var expect = chai.expect;
+    var should = chai.should();
+  </script>
+  <!-- bower:js -->
+  <!-- endbower -->
+  <!-- include source files here... -->
+  <!-- include spec files here... -->
+  <script src="spec/test.js"></script>          <!--加载,存放测试的JS-->
+
+  <script>
+    if (navigator.userAgent.indexOf('PhantomJS') === -1) {    //用于判断当前浏览器是否为Phantom,是为0因为匹配到了不是为-1;第一次时为条件为true用于注册
+      mocha.run();                                //执行test
+    }
+/*    window.setInterval(function(){
+      mocha.run();
+    },2000);*/
+  </script>
+</body>
+</html>
